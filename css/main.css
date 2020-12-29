@@ -197,17 +197,15 @@ header figure {
 }
 
 .header-divider {
-  background: #3a3a3a; 
-  height: 1px;
+  background: #c71d6f; 
+  height: 1em;
   width: 100%;
-  margin: 10px 0 20px 0;
+  margin: 1em;
 }
 
 header nav {
   width: 60%;
   font-size: 1.125em;
-  font-weight: 700;
-  text-transform: uppercase;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -219,9 +217,18 @@ header nav ul {
   display: flex;
   justify-content: space-around;
 }
+header nav  a{
+  width: 100%;
+  font-size: 1.125em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 header nav ul li {
   font-size: 1.125em;
+  justify-content: space-around;
 }
 
 footer {
@@ -631,6 +638,7 @@ margin: 2rem;
   .header-divider {
     display: none;
   }
+
   /* Hero Area */
 
   .hero-area {
