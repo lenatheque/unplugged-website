@@ -355,7 +355,12 @@ input[type=button] {
   text-transform: uppercase;
 }
 
-/* Features */
+/* Portfolio */
+img:hover {
+  opacity: 0.3;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
 
 .portfolio {
   background: url('../img/unplugged-retreat-features.jpg');
@@ -393,7 +398,7 @@ input[type=button] {
   margin: 0;
 }
 
-/* Reviews */
+/* About */
 
 .about {
   background-image: linear-gradient(to top, #c71d6f 0%, #d09693 100%);
@@ -652,13 +657,13 @@ margin: 2rem;
     margin: 0;
   }
 
-  /* Features */
+  /* Portfolio */
 
-  .features h2 {
+  .portfolio h2 {
     margin-bottom: 20px;
   }
 
-  .features article {
+  .portfolio article {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -666,30 +671,30 @@ margin: 2rem;
     flex-basis: 50%;
   }
   
-  .features .features-item-description {
+  .portfolio .portfolio-item-description {
     width: 62%;
   }
 
-  .features i {
+  .portfolio i {
     margin-bottom: 30px;
   }
 
-  /* Reviews */
-  .reviews article {
+  /* About */
+  .about article {
     display: flex;
     justify-content: space-between;
   }
 
-  .reviews h2 {
+  .about h2 {
     width: 85%;
   }
 
-  .reviews article figure,
-  .reviews article div {
+  .about article figure,
+  .about article div {
     width: 49%;
   }
 
-  .reviews h3 {
+  .about h3 {
     width: 75%;
     margin: 0;
   }
@@ -829,23 +834,23 @@ margin: 2rem;
     font-size: 1.125em;
   }
 
-  /* Features */
+  /* Portfolio */
 
-  .features h2 {
+  .portfolio h2 {
     width: 90%;
   }
 
-  .features article {
+  .portfolio article {
     flex-basis: 33%;
   }
   
-  /* Reviews */
+  /* About */
   
-  .reviews h2 {
+  .about h2 {
     padding-bottom: 50px; 
   }
   
-  .reviews article div {
+  .about article div {
     width: 42%;
   }
 
